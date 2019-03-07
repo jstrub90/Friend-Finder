@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "survey app to find a friend match",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstrub90/Friend-Finder.git"
+  },
+  "author": "jstrub90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstrub90/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/jstrub90/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
