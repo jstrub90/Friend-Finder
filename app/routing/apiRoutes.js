@@ -31,7 +31,7 @@ module.exports = function(app) {
         });
 
         var lowScore = Math.min(...answersArr), // determine the lowest score in the array
-            indexOfLowScore = scoreArr.indexOf(lowScore), // determine the index of first lowest score
+            indexOfLowScore = answersArr.indexOf(lowScore), // determine the index of first lowest score
             match = friends[indexOfLowScore];
 
         // adding new person to the friends list array
